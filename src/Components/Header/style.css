@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+.epicHeader {
+    background-color: rgb(32, 32, 32);
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+.rightSide nav ul{
+    display: flex;
+    width: 40vw;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.rightSide nav ul li h1{
+    color: white;
+    font-weight: 700;
+}
+
+.rightSide{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2vw;
+}
+
+.rightSide nav ul li{
+    color: gray;
+    font-family: "Roboto Mono", monospace;
+}
+
+.leftSide {
+    display: flex;
+    width: 12vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1vmax;
+}
+
+.leftSide img{
+    background-color: gray;
+    border-radius: 40px;
+
+}
+
+.leftSide button{
+    background-color: rgb(58, 157, 255);
+    width: 50%;
+    border: none;
+    height: 90%;
+    border-radius: 10px;
+    color: black;
+}
